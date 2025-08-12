@@ -1,0 +1,12 @@
+streamlit
+fastapi  # For potential async backend tasks (as mentioned)
+openai
+langchain
+langchain-community  # For text splitters, retrievers
+faiss-cpu  # Or chroma if preferred
+pymupdf  # For PDF handling
+pdfplumber
+python-docx
+sentence-transformers  # For bge-base embeddings
+#sqlite3  # Built-in, but listed for clarity
+requests  # For API calls like CrossRef
